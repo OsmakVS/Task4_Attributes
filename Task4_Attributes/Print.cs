@@ -9,7 +9,7 @@ namespace Task4_Attributes
 {
     class Print
     {
-        public void cPrint(object obj)
+        public void ColorPrint(object obj)
         {
             Type objTp = obj.GetType();
             PropertyInfo[] array = objTp.GetProperties();

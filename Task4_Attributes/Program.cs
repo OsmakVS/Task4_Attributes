@@ -12,7 +12,7 @@ namespace Task4_Attributes
         {
             TestClass testClass = new TestClass("First string", "Second string", "Third String");
             Print prt = new Print();
-            prt.cPrint(testClass);
+            prt.ColorPrint(testClass);
         }
     }
 }
